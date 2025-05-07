@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import groupImg from "../assets/Group.png";
 import notificationImg from "../assets/ic_round-notifications.jpg";
 import unsplash from "../assets/unsplash.png";
-import frameten from "../assets/frameten.png";
+import scrolls from "../assets/scrolls.png";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -100,7 +100,7 @@ const Header = () => {
           {user}
         </p>
         <img
-          src={frameten}
+          src={scrolls}
           alt="Dropdown"
           className="h-5 w-5 cursor-pointer"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
